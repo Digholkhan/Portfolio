@@ -5,7 +5,7 @@ import {HiExternalLink} from 'react-icons/hi'
 
 
 
-const Project = ({ImgSrc,PName}) => {
+const Project = ({ImgSrc,PName,CodeSrc,liveSrc}) => {
   return (
     <div>
         <div className='w-[300px] lg:w-[370px] overflow-y-hidden group'>
@@ -13,8 +13,12 @@ const Project = ({ImgSrc,PName}) => {
                 <img src={ImgSrc} alt="" className='h-[250px] w-full rounded-t-[10px]'/>
                 <div className='bg-black opacity-80 rounded-t-[10px]  h-[110px] absolute bottom-[-250px] group-hover:bottom-0 w-full md:w-[370px] duration-300 pt-6 '>
                       <Flex className='justify-between '>
-                      <button className='text-white text-lg font-bold pt-4 pl-2 group'><AiFillGithub className='inline mr-2 text-white text-4xl group-hover:scale-110  group-hover:drop-shadow-[2px_04px_5px_rgba(0,149,180)] duration-200 ease-linear'/>View Codes</button>
-                      <button className='text-white text-lg font-bold pt-4 pr-2 group'><HiExternalLink className='inline mr-2 text-white text-4xl group-hover:scale-110  group-hover:drop-shadow-[2px_04px_5px_rgba(0,149,180)] duration-200 ease-linear'/>View Live</button>
+                      <a href={CodeSrc} target="_blank">
+                      <button className='text-white text-lg font-bold pt-4 pl-2 group' ><AiFillGithub className='inline mr-2 text-white text-4xl group-hover:scale-110  group-hover:drop-shadow-[2px_04px_5px_rgba(0,149,180)] duration-200 ease-linear' />View Codes</button>
+                      </a>
+                     <a href={liveSrc} target="_blank">
+                     <button className='text-white text-lg font-bold pt-4 pr-2 group' ><HiExternalLink className='inline mr-2 text-white text-4xl group-hover:scale-110  group-hover:drop-shadow-[2px_04px_5px_rgba(0,149,180)] duration-200 ease-linear' />View Live</button>
+                     </a>
                       </Flex>
                 </div>
             </div>

@@ -16,33 +16,33 @@ const MyProjects = () => {
         <Container>
         <Heading Headerp1='My Projects' className='mb-10'/>
             <Flex className='flex-wrap gap-x-16 gap-y-10 justify-center relative z-10'>
-             <div>
-                <Project ImgSrc={ecommerce} PName='Orebi E commerce'/>
+            <div>
+                <Project ImgSrc={ecommerce} CodeSrc="https://github.com/Digholkhan/E-commerce"  liveSrc='https://orebiecommerce.netlify.app/' PName='Orebi E commerce'/>
             </div> 
             <div>
-                <Project ImgSrc={avada} PName='Avada Extreme Sports'/>
+                <Project ImgSrc={avada} CodeSrc='https://github.com/Digholkhan/Extreme-Sports' liveSrc='https://exsports.netlify.app/' PName='Avada Extreme Sports'/>
             </div>  
             <div>
-                <Project ImgSrc={PDFTool} PName='PDF Tools'/>
+               <Project ImgSrc={PDFTool} CodeSrc='https://github.com/Digholkhan/PDF-TOOLS' liveSrc='https://pdftools-sampledesign.netlify.app/' PName='PDF Tools'/>  
             </div>    
             <div>
-                <Project ImgSrc={finsweet} PName='Finsweet'/>
-            </div>
-            <div>
-                <Project ImgSrc={Qurier} PName='Qurier Box'/>
+                <Project ImgSrc={finsweet} CodeSrc='https://github.com/Digholkhan/finsweet' liveSrc='https://digholkhan.github.io/finsweet/' PName='Finsweet'/>
             </div> 
             <div>
-                <Project ImgSrc={Innovate} PName='Innovate'/>
-            </div>
-            <div>
-                <Project ImgSrc={ecommerce} PName='Orebi E commerce'/>
+                <Project ImgSrc={Qurier} CodeSrc='https://github.com/Digholkhan/QuriarBox' liveSrc='https://qurierbox.netlify.app/' PName='Qurier Box'/>
             </div> 
             <div>
-                <Project ImgSrc={avada} PName='Avada Extreme Sports'/>
+                <Project ImgSrc={Innovate} CodeSrc='https://github.com/Digholkhan/innovate' liveSrc='https://digholkhan.github.io/innovate/' PName='Innovate'/>
+            </div>
+            <div>
+                <Project ImgSrc={ecommerce} CodeSrc="https://github.com/Digholkhan/E-commerce"  liveSrc='https://orebiecommerce.netlify.app/' PName='Orebi E commerce'/>
+            </div> 
+            <div>
+                <Project ImgSrc={avada} CodeSrc='https://github.com/Digholkhan/Extreme-Sports' liveSrc='https://exsports.netlify.app/' PName='Avada Extreme Sports'/>
             </div>  
             <div>
-                <Project ImgSrc={PDFTool} PName='PDF Tools'/>
-            </div>   
+               <Project ImgSrc={PDFTool} CodeSrc='https://github.com/Digholkhan/PDF-TOOLS' liveSrc='https://pdftools-sampledesign.netlify.app/' PName='PDF Tools'/>  
+            </div>  
             </Flex>
         </Container>
     </div>
