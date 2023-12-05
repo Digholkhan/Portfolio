@@ -14,10 +14,10 @@ import Sublime from '../../assets/projects/Sublime.png'
 
 const MyProjects = () => {
   return (
-    <div className='bg-ProjectBg bg-cover bg-fixed relative after:absolute after:top-0 after:left-0  after:bg-black after:w-full after:h-full  after:opacity-90 pt-40 pb-64 '>
+    <div className='bg-ProjectBg bg-cover bg-fixed relative after:absolute after:top-0 after:left-0  after:bg-black after:w-full after:h-full  after:opacity-90 pt-10 lg:pt-20 pb-64 '> 
         <Container>
         <Heading Headerp1='My Projects' className='mb-10'/>
-            <Flex className='flex-wrap gap-x-16 gap-y-10 justify-center relative z-10'>
+            <Flex className='flex-wrap gap-x-16 gap-y-10 justify-center relative z-[1]'>
             <div>
                 <Project ImgSrc={ecommerce} CodeSrc="https://github.com/Digholkhan/E-commerce"  liveSrc='https://orebiecommerce.netlify.app/' PName='Orebi E commerce'/>
             </div> 

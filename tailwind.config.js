@@ -16,8 +16,9 @@ export default {
         
       },
       backgroundImage:{
-        'BannerImg':"url('/src/assets/D.jpeg')",
-        'ProjectBg': "url('/src/assets/bg.jpg')",
+        'BannerImg':"url('/src/assets/D.jpeg')", 
+        'ServiceImg':"url('/src/assets/profile.gif')",
+        'ProjectBg': "url('/src/assets/bg-w.png')",
         'ContactBg': "url('/src/assets/contact.jpg')"
       },
       fontFamily: {

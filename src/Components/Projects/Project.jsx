@@ -7,7 +7,7 @@ import {HiExternalLink} from 'react-icons/hi'
 
 const Project = ({ImgSrc,PName,CodeSrc,liveSrc}) => {
   return (
-    <div>
+    <div className=' my-4 drop-shadow-[0_04px_5px_rgba(0,149,180)] duration-200 ease-linear'>
         <div className='w-[300px] lg:w-[370px] overflow-y-hidden group'>
             <div className='relative'>
                 <img src={ImgSrc} alt="" className='h-[250px] w-full rounded-t-[10px]'/>
@@ -23,9 +23,9 @@ const Project = ({ImgSrc,PName,CodeSrc,liveSrc}) => {
                 </div>
             </div>
         </div>
-        <div className='relative z-10 w-[300px] lg:w-[370px] bg-black text-white text-center p-4 rounded-b-[10px]'>
+        <div className='relative z-[1] w-[300px] lg:w-[370px] bg-black opacity-80 text-white text-center py-10 px-8 rounded-b-[10px]'>
             <h1 className='text-xl font-bold text-primary uppercase'>{PName}</h1>
-            <p className=' text-justify pt-4'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo amet totam porro eos nesciunt alias tempore, adipisci placeat.</p>
+            <p className='text-justify pt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, id reprehenderit suscipit mollitia assumenda totam repellat sint reiciendis magni veniam!</p>
         </div>
     </div>
   )

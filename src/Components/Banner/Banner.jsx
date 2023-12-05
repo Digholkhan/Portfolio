@@ -9,7 +9,7 @@ import {IoLogoWhatsapp} from 'react-icons/io'
 import {BiLogoFacebookCircle} from 'react-icons/bi'
 import {AiFillInstagram} from 'react-icons/ai'
 import Button from '../Button';
-import { Link } from 'react-router-dom';
+
 
 
 const Banner = () => {
@@ -18,8 +18,9 @@ const Banner = () => {
 
   return (
     <>
-    <div className='relative bg-black bg-BannerImg bg-contain bg-no-repeat md:bg-cover lg:h-screen bg-center'>
+    <div className='relative bg-black bg-BannerImg bg-contain bg-no-repeat md:bg-cover lg:h-screen bg-center' >
     <div className=''><Particle/></div>
+   
         <Container>
             <Flex>
             <div className='w-80 lg:w-[550px] pt-24 pb-14 lg:py-48 relative'>
@@ -49,25 +50,25 @@ const Banner = () => {
                   <div
                     className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
                   >
-                    <div className="relative w-[700px]  mt-40 md:my-10 mx-auto">
+                    <div className="relative w-[800px]  mt-40 md:my-10 mx-auto">
                       {/*content*/}
                       <div className="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-black outline-none focus:outline-none">
                         {/*header*/}
-                        <div className="bg-white flex items-center justify-between py-4 px-5 border-b border-solid border-blueGray-200 rounded-t">
-                          <h3 className="text-3xl font-semibold ">
+                        <div className="bg-[#00181D] flex items-center justify-between py-4 px-5 border-b border-solid border-blueGray-200 rounded-t">
+                          <h3 className="text-3xl font-semibold text-white">
                             Hire Me 
                           </h3>
                           <button
                             className="p-1 ml-auto  border-0 text-black  float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
                             onClick={() => setShowModal(false)}
                           >
-                            <span className=" h-6 w-6 font-bold text-3xl">
+                            <span className=" h-6 w-6 font-bold text-3xl text-white">
                               ×
                             </span>
                           </button>
                         </div>
                         {/*body*/}
-                        <div className="relative  flex-auto bg-ContactBg opacity-90 ">
+                        <div className="relative  flex-auto bg-ContactBg opacity-90 rounded-b">
                           <div className='w-full  mx-auto text-center py-10 bg-[#000000b0]  rounded-[10px] relative z-[1]  '>
                             <div>
                               <input type="text" placeholder='Your Name' className='py-4 pl-5 pr-28 sm:pr-80 bg-transparent outline-none  hover:outline-primary text-white shadow-[0_0_10px_rgba(0,149,180)] rounded-[8px] mt-6'/>
@@ -87,22 +88,12 @@ const Banner = () => {
                               <input placeholder='Your message' className='pt-4 pb-28 pr-28 sm:pr-80 pl-5 mt-8 bg-transparent outline-none outline-2 hover:outline-primary text-white shadow-[0_0_10px_rgba(0,149,180)] rounded-[8px]' />
                             </div>
                             <button
-                                className='py-3 px-20 md:px-[100px] text-xl font-bold border-2 border-primary bg-primary hover:bg-transparent  duration-300 ease-linear rounded-[10px] text-white mt-10'   
+                                className='py-3 px-20 md:px-[100px] text-xl font-bold border-2 border-primary bg-primary hover:bg-transparent  duration-300 ease-linear rounded-[10px] text-white mt-10 mb-5'   
                                 onClick={() => setShowModal(false)}>
                                 send message
                             </button>
                         </div>
                         </div>
-                        {/*footer*/}
-                        {/* <div className="flex items-center justify-center p-6 border-t border-solid border-blueGray-200 rounded-b bg-black">
-                          <button
-                            className="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                            type="button"
-                            onClick={() => setShowModal(false)}
-                          >
-                            Close
-                          </button>
-                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -110,7 +101,11 @@ const Banner = () => {
               ) : null}
 
             </div>
+          {/* <div className='absolute right-10 bottom-20'>
+            <img src={BannerImg} alt="" className='h-[500px] w-[500px]'/>
+          </div> */}
           </Flex>
+
       </Container>
     </div>
     </>

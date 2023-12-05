@@ -1,6 +1,6 @@
 import React from 'react'
 import Container from '../Container'
-import Img from '../../assets/dighol.png'
+import Img from '../../assets/ImgShapes/3.png'
 import TypeWriter from '../TypeWriter'
 import Heading from '../Heading'
 
@@ -10,7 +10,7 @@ const About = () => {
       <Container>
           <Heading Headerp1='About' Headerp2='Me'></Heading>
           <div className='mx-auto '>
-            <img src={Img} alt="" className='relative mx-auto p-2 border-4 w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] rounded-[50%] z-[1]  hover:scale-105 hover:drop-shadow-[0_04px_10px_rgba(0,149,180)] duration-200 ease-linear'/>
+            <img src={Img} alt="" className='relative mx-auto p-2  w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]  z-[1]  hover:scale-105 drop-shadow-[0_04px_10px_rgba(0,149,180)] duration-200 ease-linear'/>
           </div>
           <div className='text-center'>
           <p className='text-xs lg:text-lg text-white pt-8'>Hello  I'm</p>

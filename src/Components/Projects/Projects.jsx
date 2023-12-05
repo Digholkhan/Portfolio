@@ -50,8 +50,7 @@ const Projects = () => {
         slidesToScroll: 3,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
-
-
+      
         responsive: [
           {
             breakpoint: 1024,
@@ -80,10 +79,10 @@ const Projects = () => {
         ]
       };
   return (
-    <div className='bg-primary after:content[""] after:bg-black after:absolute after:top-0 after:w-full after:h-full after:opacity-50  relative py-20'>
-        <Heading Headerp1='My Projects'/>
+    <div className='bg-ProjectBg bg-no-repeat bg-cover bg-center bg-fixed after:content[""] after:bg-black after:absolute after:top-0 after:w-full after:h-full after:opacity-80  relative py-20 '>
+        <Heading Headerp1='My Projects '/>
        <Container>
-       <div className='relative z-10 '>
+       <div className='relative z-10 py-10'>
         <Slider {...settings}>
           
             <div>

@@ -14,6 +14,7 @@ import {
 import AutoLayout from './Components/AutoLayout/AutoLayout.jsx';
 import Home from './Pages/Home.jsx';
 import Contact from './Components/Contact/Contact.jsx';
+import Services from './Components/Services/Services.jsx';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -23,6 +24,7 @@ const router = createBrowserRouter(
      
     >
         <Route index element={<Home />} />  
+        <Route path='/Services' element={<Services/>} />
         <Route path='/About' element={<About></About>} />
         <Route path='/projects' element={<MyProjects></MyProjects>} />
         <Route path='/MySkills' element={<MySkills></MySkills>} />
