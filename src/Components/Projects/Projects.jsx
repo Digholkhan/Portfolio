@@ -41,7 +41,7 @@ const Projects = () => {
     );
   }
 
-    var settings = {
+    const settings = {
         className: '',
         dots: true,
         infinite: true,
@@ -50,7 +50,7 @@ const Projects = () => {
         slidesToScroll: 3,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
-      
+   
         responsive: [
           {
             breakpoint: 1024,
@@ -107,7 +107,7 @@ const Projects = () => {
                 <Project ImgSrc={Finix} CodeSrc="https://github.com/Digholkhan/finix"  liveSrc='https://digholkhan.github.io/finix/#' PName='Finix'/>
             </div> 
             <div>
-                <Project ImgSrc={Sublime} CodeSrc='https://github.com/Digholkhan/Extreme-Sports' liveSrc='https://exsports.netlify.app/' PName='Sublime'/>
+                <Project ImgSrc={Sublime} CodeSrc='https://github.com/Digholkhan/sublime' liveSrc='https://digholkhan.github.io/sublime/' PName='Sublime'/>
             </div>  
             <div>
                 <Project ImgSrc={ecommerce} CodeSrc="https://github.com/Digholkhan/E-commerce"  liveSrc='https://orebiecommerce.netlify.app/' PName='Orebi E commerce'/>
