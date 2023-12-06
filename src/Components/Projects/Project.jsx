@@ -24,8 +24,8 @@ const Project = ({ImgSrc,PName,CodeSrc,liveSrc}) => {
             </div>
         </div>
         <div className='relative z-[1] w-[300px] lg:w-[370px] bg-black opacity-80 text-white text-center py-10 px-8 rounded-b-[10px]'>
-            <h1 className='text-xl font-bold text-primary uppercase'>{PName}</h1>
-            <p className='text-justify pt-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, id reprehenderit suscipit mollitia assumenda totam repellat sint reiciendis magni veniam!</p>
+            <h1 className='text-lg lg:text-xl font-bold text-primary uppercase'>{PName}</h1>
+            <p className='text-justify pt-4 text-xs lg:text-base'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, id reprehenderit suscipit mollitia assumenda totam repellat sint reiciendis magni veniam!</p>
         </div>
     </div>
   )
