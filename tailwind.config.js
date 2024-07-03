@@ -16,7 +16,7 @@ export default {
         
       },
       backgroundImage:{
-        'BannerImg':"url('/src/assets/D.jpeg')", 
+        'BannerImg':"url('/src/assets/BGD.jpg')", 
         'ServiceImg':"url('/src/assets/profile.gif')",
         'ProjectBg': "url('/src/assets/bg-w.png')",
         'ContactBg': "url('/src/assets/contact.jpg')"

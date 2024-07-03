@@ -18,7 +18,7 @@ const Navbar = () => {
     setShow (!show);
   }
   return (
-    <div className='absolute w-full z-10 py-4 lg:py-10'>
+    <div className='absolute w-full z-20 py-4 lg:py-10'>
        <Container>
        <Flex className='items-center'>
             <div className='w-3/12 flex items-center gap-x-2'>
@@ -37,7 +37,7 @@ const Navbar = () => {
                 <ListItem ItemName='Home' className='hover:bg-primary hover:text-white  py-2.5 lg:hover:bg-transparent lg:after:content-[" "] lg:after:absolute relative lg:after:bottom-0 lg:after:left-0 lg:after:border-b-4 lg:after:border-white lg:after:w-0  lg:hover:after:w-full hover:after:duration-300 lg:pb-1.5 lg:hover:text-sec duration-300'/>
                 </NavLink>
                 <NavLink to='/Services'>
-                <ListItem ItemName='Services' className='hover:bg-primary hover:text-white  py-2.5 lg:hover:bg-transparent lg:after:content-[" "] lg:after:absolute relative lg:after:bottom-0 lg:after:left-0 lg:after:border-b-4 lg:after:border-white lg:after:w-0  lg:hover:after:w-full hover:after:duration-300 lg:pb-1.5 lg:hover:text-sec duration-300'/>
+                  <ListItem ItemName='Services' className='hover:bg-primary hover:text-white  py-2.5 lg:hover:bg-transparent lg:after:content-[" "] lg:after:absolute relative lg:after:bottom-0 lg:after:left-0 lg:after:border-b-4 lg:after:border-white lg:after:w-0  lg:hover:after:w-full hover:after:duration-300 lg:pb-1.5 lg:hover:text-sec duration-300'/>
                 </NavLink>
                 <NavLink to='/About'>
                 <ListItem ItemName='About Me' className='hover:bg-primary hover:text-white py-2.5 lg:hover:bg-transparent lg:after:content-[" "] lg:after:absolute relative lg:after:bottom-0 lg:after:left-0 lg:after:border-b-4 lg:after:border-white lg:after:w-0  lg:hover:after:w-full hover:after:duration-300 lg:pb-1.5 lg:hover:text-sec duration-300'/>
@@ -47,8 +47,7 @@ const Navbar = () => {
                 </NavLink>  
                 <NavLink to='/MySkills'>
                 <ListItem ItemName='My Skills' className='hover:bg-primary hover:text-white py-2.5 lg:hover:bg-transparent lg:after:content-[" "] lg:after:absolute relative lg:after:bottom-0 lg:after:left-0 lg:after:border-b-4 lg:after:border-white lg:after:w-0  lg:hover:after:w-full hover:after:duration-300 lg:pb-1.5 lg:hover:text-sec duration-300'/>
-                </NavLink>    
-               
+                </NavLink>      
                 <NavLink to='/Contact'>
                   <Button BtnName='Contact' className='lg:hidden my-2.5  px-[20px] lg:px-[40px] py-[6px]  text-xs lg:text-lg text-primary font-bold rounded-[5px]  border lg:border-2 border-primary hover:scale-[.98] hover:shadow-none shadow-[0px_01px_10px_rgba(0,149,180)] lg:shadow-[0px_0px_10px_rgba(0,149,180)] duration-200 ease-linear'/>
                 </NavLink>

@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <div>
         
-<footer class="bg-black relative">
+<footer class="bg-black relative z-20">
 
     <div class="mx-auto w-full max-w-screen-xl">
     <div class="grid  px-4 py-6 lg:py-8 md:grid-cols-4">
@@ -24,7 +24,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='text-center col-span-2'>
-            <h2 class="mb-4 md:mb-6 text-2xl md:text-3xl font-semibold text-gray-900 uppercase dark:text-primary pt-4 md:pt-8">Thanks for visit</h2>
+            <h2 class="mb-4 md:mb-6 text-2xl md:text-3xl font-semibold uppercase text-white pt-4 md:pt-8">Thanks for visit</h2>
             <nav>
               <List className='flex justify-center gap-x-2.5 md:gap-x-4 text-sm md:text-lg md:font-bold text-white '>
                 <NavLink to='/'>
@@ -51,7 +51,7 @@ const Footer = () => {
 
         <div className='col-span-2 md:col-span-1  md:pl-20 md:text-justify text-center  pt-5 md:pt-0'>
             <ul class="text-gray-400 font-medium text-xs md:text-base">
-            <h2 class="mb-2 md:mb-6 text-sm font-bold text-gray-900 uppercase dark:text-primary">Contact</h2>
+            <h2 class="mb-2 md:mb-6 text-sm font-bold uppercase text-primary">Contact</h2>
                 <li class="mb-4">
                     <a href="#" class="hover:underline">01518683742 (whatsapp)</a>
                 </li>
@@ -66,7 +66,7 @@ const Footer = () => {
     </div>
 
     <div class="px-4 py-6 bg-gray-700 text-center md:text-justify md:flex md:items-center md:justify-between">
-        <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center">© 2023 <a href="#" className='text-primary font-bold'>Dighol khan</a>. All Rights Reserved.
+        <span class="text-sm text-gray-300 sm:text-center">© 2023 <a href="#" className='text-primary font-bold'>Dighol khan</a>. All Rights Reserved.
         </span>
         <div class="flex mt-4 space-x-5 justify-center md:mt-0">
               <a href="https://github.com/Digholkhan"> <AiFillGithub className='text-white text-xl hover:scale-110  hover:drop-shadow-[2px_04px_5px_rgba(0,149,180)] duration-200 ease-linear'/></a>

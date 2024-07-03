@@ -10,20 +10,18 @@ import {BiLogoFacebookCircle} from 'react-icons/bi'
 import {AiFillInstagram} from 'react-icons/ai'
 import Button from '../Button';
 
-
-
 const Banner = () => {
 
   const [showModal, setShowModal] = React.useState(false);
 
   return (
     <>
-    <div className='relative bg-black bg-BannerImg bg-contain bg-no-repeat md:bg-cover lg:h-screen bg-center' >
-    <div className=''><Particle/></div>
+    <div className='relative after:w-full after:h-full after:absolute after:left-0 after:top-0 after:z-0 after:bg-black after:opacity-60 bg-BannerImg bg-contain bg-no-repeat md:bg-cover lg:h-screen bg-center' >
+    <div><Particle/></div>
    
         <Container>
             <Flex>
-            <div className='w-80 lg:w-[550px] pt-24 pb-14 lg:py-48 relative'>
+            <div className='w-80 lg:w-[550px] pt-24 pb-14 lg:py-48 relative z-10 '>
                 <p className='text-sec font-semibold text-sm lg:text-xl font-yellowtail'>Hi, I'm</p>
                 <h1 className='text-3xl lg:text-6xl font-semibold text-white py-2'>Dighol khan</h1>
                 <h2 className='text-xl lg:text-3xl font-semibold pb-2 lg:py-2'><span className='text-white '>I'm a </span><TypeWriter className='text-primary inline-block'/></h2>
@@ -102,7 +100,7 @@ const Banner = () => {
 
             </div>
           {/* <div className='absolute right-10 bottom-20'>
-            <img src={BannerImg} alt="" className='h-[500px] w-[500px]'/>
+            <img src={BGD} alt="" className='h-[500px] w-[500px]'/>
           </div> */}
           </Flex>
 

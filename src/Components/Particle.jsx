@@ -16,11 +16,11 @@ const particlesLoaded = useCallback(async container => {
 }, []);
 
   return (
-    <div className="">
+    <div className="absolute w-full h-full top-0 left-0 z-10">
         <Particles 
             id="tsparticles"
             init={particlesInit}
-            loaded={particlesLoaded}
+            loaded={particlesLoaded}   
             options={{
              
                 fpsLimit: 60,
@@ -54,6 +54,7 @@ const particlesLoaded = useCallback(async container => {
                     },
                 },
                 particles: {
+                 
                     color: {
                         value: "#0095B4",
                     },
@@ -90,6 +91,7 @@ const particlesLoaded = useCallback(async container => {
                     size: {
                         value: {min: 2, max: 5 },
                     },
+                    
                 },
                 detectRetina: true,
             }}

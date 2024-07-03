@@ -10,7 +10,7 @@ import Design3 from '../../assets/Design3.jpg'
 
 const Services = () => {
   return (
-    <div className='pt-10 lg:py-20 lg:pb-32 bg-ServiceImg bg-no-repeat bg-cover bg-center bg-fixed relative after:absolute after:top-0 after:left-0  after:bg-black after:w-full after:h-full after:opacity-80'>
+    <div className='z-10 pt-10 lg:py-20 lg:pb-32 bg-ServiceImg bg-no-repeat bg-cover bg-center bg-fixed relative after:absolute after:top-0 after:left-0  after:bg-black after:w-full after:h-full after:opacity-80'>
         <Container>
         <Heading Headerp1='My' Headerp2='Services'></Heading>
            <Flex className='flex-wrap gap-y-10 gap-x-16 justify-center pt-10'>
