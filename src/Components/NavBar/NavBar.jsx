@@ -18,7 +18,7 @@ const Navbar = () => {
     setShow (!show);
   }
   return (
-    <div className='absolute w-full z-20 py-4 lg:py-10'>
+    <div className='absolute w-full z-20 py-4 lg:py-10  '>
        <Container>
        <Flex className='items-center'>
             <div className='w-3/12 flex items-center gap-x-2'>
