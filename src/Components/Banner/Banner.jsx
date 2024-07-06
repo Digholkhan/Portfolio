@@ -16,7 +16,7 @@ const Banner = () => {
 
   return (
     <>
-    <div className='relative after:w-full after:h-full after:absolute after:left-0 after:top-0 after:z-0 after:bg-black after:opacity-60 bg-BannerImg bg-contain bg-no-repeat md:bg-cover lg:h-screen bg-center' >
+    <div className='relative after:w-full after:h-full after:absolute after:left-0 after:top-0 after:z-0 after:bg-black after:opacity-60 bg-BannerImg  bg-no-repeat bg-cover lg:h-screen bg-center' >
     <div><Particle/></div>
    
         <Container>
