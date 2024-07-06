@@ -7,7 +7,7 @@ import Heading from '../Heading'
 const About = () => {
   return (
     <div className=' bg-[#000] py-10 lg:py-20'>    
-      <Container>
+      <Container className='relative z-20'>
           <Heading Headerp1='About' Headerp2='Me'></Heading>
           <div className='mx-auto '>
             <img src={Img} alt="" className='relative mx-auto p-2  w-[250px] h-[250px] lg:w-[400px] lg:h-[400px]  z-[1]  hover:scale-105 drop-shadow-[0_04px_10px_rgba(0,149,180)] duration-200 ease-linear'/>

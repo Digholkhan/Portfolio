@@ -10,7 +10,7 @@ const Bars = ({className,completed}) => {
     bgColor='#0095B4'
     height='25px'
     borderRadius='30px'
-    animateOnRender= 'true'
+    animateOnRender= 'false'
     transitionDuration='2s'
     />
   )
