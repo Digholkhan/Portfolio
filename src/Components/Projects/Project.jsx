@@ -5,7 +5,7 @@ import {HiExternalLink} from 'react-icons/hi'
 
 
 
-const Project = ({ImgSrc,PName,CodeSrc,liveSrc}) => {
+const Project = ({ImgSrc,PName,CodeSrc,liveSrc, }) => {
   return (
     <div className=' my-4 drop-shadow-[0_04px_5px_rgba(0,149,180)] duration-200 ease-linear'>
         <div className='w-[300px] lg:w-[370px] overflow-y-hidden group'>
